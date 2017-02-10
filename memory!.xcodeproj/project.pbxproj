@@ -13,6 +13,8 @@
 		533BE9E61E4DF45F00D79C74 /* memory_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 533BE9E41E4DF45F00D79C74 /* memory_.xcdatamodeld */; };
 		533BE9E81E4DF45F00D79C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533BE9E71E4DF45F00D79C74 /* Assets.xcassets */; };
 		533BE9EB1E4DF45F00D79C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533BE9E91E4DF45F00D79C74 /* LaunchScreen.storyboard */; };
+		533BE9F31E4DF5F300D79C74 /* RKM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 533BE9F21E4DF5F300D79C74 /* RKM.jpg */; };
+		533BE9F51E4DF65500D79C74 /* ADDINGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533BE9F41E4DF65500D79C74 /* ADDINGViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		533BE9E71E4DF45F00D79C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533BE9EA1E4DF45F00D79C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		533BE9EC1E4DF45F00D79C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533BE9F21E4DF5F300D79C74 /* RKM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RKM.jpg; sourceTree = "<group>"; };
+		533BE9F41E4DF65500D79C74 /* ADDINGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDINGViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		533BE9DC1E4DF45F00D79C74 /* memory! */ = {
 			isa = PBXGroup;
 			children = (
+				533BE9F21E4DF5F300D79C74 /* RKM.jpg */,
 				533BE9DD1E4DF45F00D79C74 /* AppDelegate.swift */,
 				533BE9DF1E4DF45F00D79C74 /* ViewController.swift */,
 				533BE9E11E4DF45F00D79C74 /* Main.storyboard */,
+				533BE9F41E4DF65500D79C74 /* ADDINGViewController.swift */,
 				533BE9E71E4DF45F00D79C74 /* Assets.xcassets */,
 				533BE9E91E4DF45F00D79C74 /* LaunchScreen.storyboard */,
 				533BE9EC1E4DF45F00D79C74 /* Info.plist */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533BE9F31E4DF5F300D79C74 /* RKM.jpg in Resources */,
 				533BE9EB1E4DF45F00D79C74 /* LaunchScreen.storyboard in Resources */,
 				533BE9E81E4DF45F00D79C74 /* Assets.xcassets in Resources */,
 				533BE9E31E4DF45F00D79C74 /* Main.storyboard in Resources */,
@@ -143,6 +150,7 @@
 				533BE9E01E4DF45F00D79C74 /* ViewController.swift in Sources */,
 				533BE9DE1E4DF45F00D79C74 /* AppDelegate.swift in Sources */,
 				533BE9E61E4DF45F00D79C74 /* memory_.xcdatamodeld in Sources */,
+				533BE9F51E4DF65500D79C74 /* ADDINGViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
